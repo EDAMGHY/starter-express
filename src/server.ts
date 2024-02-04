@@ -1,9 +1,4 @@
-import express, {
-  IRouterMatcher,
-  Request,
-  Response,
-  Application,
-} from "express";
+import express, { Request, Response, Application } from "express";
 import dotenv from "dotenv";
 import { connectDB } from "@/config";
 
